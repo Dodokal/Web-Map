@@ -1,0 +1,90 @@
+/* style.css  —  IP: Application Development | Assignment #1 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 24px;
+  color: #1d3557;
+  background-color: #f7f9fb;
+}
+
+h1 {
+  margin: 0 0 2px 0;
+  font-size: 24px;
+}
+
+.subtitle {
+  margin: 0 0 16px 0;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* Map container */
+#map {
+  width: 100%;
+  max-width: 900px;
+  height: 480px;
+  border: 2px solid #1d3557;
+  border-radius: 6px;
+}
+
+/* Status / result message */
+#message {
+  max-width: 900px;
+  margin: 12px 0;
+  padding: 10px 14px;
+  background-color: #ffffff;
+  border-left: 4px solid #000101;
+  border-radius: 2px;
+  font-size: 15px;
+  min-height: 20px;
+}
+
+/* Highlight the message box while measuring */
+#message.measuring {
+  background-color: #fff3cd;
+  border-left-color: #e0a800;
+}
+
+/* Button row */
+#controls {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#controls button {
+  padding: 8px 14px;
+  font-size: 14px;
+  color: #070000;
+  background-color: #f6f6f6;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+#controls button:hover {
+  background-color: #1d3557;
+}
+
+/* The two new task buttons stand out */
+#measure {
+  background-color: #e63946;
+}
+#measure:hover {
+  background-color: #b52d38;
+}
+
+#locate {
+  background-color: #2a9d8f;
+}
+#locate:hover {
+  background-color: #21786e;
+}
+
+/* Active state when measurement mode is on */
+#measure.active {
+  background-color: #b52d38;
+  box-shadow: 0 0 0 2px #ffd166;
+}

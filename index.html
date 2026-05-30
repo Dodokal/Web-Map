@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>OpenLayers Web Map Assignment #1</title>
+
+    <!-- OpenLayers V4 stylesheet -->
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+    <!-- Our own stylesheet -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <h1>OpenLayers Web Map</h1>
+    <p class="subtitle">IP: Application <Development-></Development-> Client-Side Computations</p>
+
+    <!-- Map container -->
+    <div id="map" class="map" tabindex="0"></div>
+
+    <!-- Status / result message -->
+    <div id="message">Use the buttons below to interact with the map.</div>
+
+    <!-- Control buttons -->
+    <div id="controls">
+      <button id="zoom-in">Zoom in</button>
+      <button id="zoom-out">Zoom out</button>
+      <button id="reset">Reset</button>
+      <button id="left">Left</button>
+      <button id="right">Right</button>
+      <button id="up">Up</button>
+      <button id="down">Down</button>
+      <!-- Task 1: distance measurement -->
+      <button id="measure">Measure distance</button>
+      <!-- Task 2: center on user's location -->
+      <button id="locate">&#9678; My location</button>
+    </div>
+
+
+    <!-- OpenLayers V4 library -->
+    <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+    <!-- Our map logic -->
+    <script src="mainmap (1).js"></script>
+  </body>
+</html>
