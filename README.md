@@ -1,4 +1,5 @@
-Client-Side Computations Web Map Application
+#Client-Side Computations Web Map Application
+
 A simple interactive web map application built with JavaScript for the Application Development course at Paris-Lodron-Universität Salzburg, Department of Geoinformatics.
 
 Features
